@@ -11,7 +11,7 @@ function Timer(props: {
 }) {
   const { id, date, startDate, completed } = props
 
-  const dateArray = date.split(/[:,\.,/, ]/)
+  const dateArray = date.split(/[:,.,/, ]/)
   let seconts = [
     +dateArray[0],
     +dateArray[0] * 60 + +dateArray[1],

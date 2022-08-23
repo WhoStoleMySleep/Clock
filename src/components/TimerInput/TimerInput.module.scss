@@ -1,0 +1,28 @@
+.timer-input {
+  &__input {
+    width: 440px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: 2px solid rgba(#000, 0);
+    border: 1px solid #707070;
+    transition-duration: 100ms;
+
+    &::placeholder {
+      opacity: 0.3;
+      color: #000;
+
+      transition-duration: 150ms;
+    }
+
+    &:focus {
+      outline: 3px solid rgba(#000, 0.04);
+
+      &::placeholder {
+        opacity: 0;
+      }
+    }
+  }
+}

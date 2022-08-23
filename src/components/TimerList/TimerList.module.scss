@@ -1,0 +1,12 @@
+.timer-list {
+  width: 540px;
+  height: calc(100vh - 100px - 159px - 10px - 40px - 10px);
+  border: 1px solid #707070;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+  box-sizing: border-box;
+}

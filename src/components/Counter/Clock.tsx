@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Clock.module.scss';
+import styles from './Clock.module.scss';
 
 function Clock() {
   const [date, setDate] = useState(new Date())
@@ -21,7 +21,7 @@ function Clock() {
   })
 
   return (
-    <section className='clock'>
+    <section className={styles.clock}>
       {hour}:{minutes}:{second}
     </section>
   );

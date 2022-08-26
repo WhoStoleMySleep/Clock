@@ -7,4 +7,32 @@ body {
   font-family: 'Segoe UI';
   width: 100vw;
   height: 100vh;
+
+  &.dark-theme {
+    background-color: #181A1B;
+
+    h1 {
+      color: #E8E6E3;
+    }
+
+    input {
+      background-color: #3B3B3B;
+      color: #6A6A6A;
+
+      &::placeholder {
+        color: #91908F;
+        opacity: 1;
+      }
+    }
+
+    li {
+      color: #BEBDBB;
+      
+      &.completed {
+        &::before {
+          background-color: rgba(26, 58, 14);
+        }
+      }
+    }
+  }
 }

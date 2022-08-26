@@ -29,7 +29,7 @@ function TimerInput() {
     <form className={styles['timer-input']} onSubmit={handleFormSubmit}>
       <input
         type="text"
-        placeholder='hh:mm:ss'
+        placeholder='[hh:mm:ss] || [mm:ss] || [ss]'
         onChange={handleInput}
         className={styles['timer-input__input']}
         maxLength={9}

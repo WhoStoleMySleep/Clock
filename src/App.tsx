@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.scss';
 import Clock from './components/Counter/Clock';
 import TimerInput from './components/TimerInput/TimerInput';
 import TimerList from './components/TimerList/TimerList';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Clock />
       <TimerInput />
       <TimerList />

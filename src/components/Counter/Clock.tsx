@@ -21,9 +21,9 @@ function Clock() {
   })
 
   return (
-    <section className={styles.clock}>
+    <h1 className={styles.clock}>
       {hour}:{minutes}:{second}
-    </section>
+    </h1>
   );
 }
 
